@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Sing up</h2>
+      <input type="text" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+
+      <span class="rulls"
+        >The password must not include characters like @,$,#
+      </span>
+      <span class="rulls"> password must have 8 charecters</span>
+
+      <div class="remember">
+        <label for="remember">Remember Me</label>
+        <input type="checkbox" id="remember" checked />
+      </div>
+
+      <button>Sing up →</button>
+    </form>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
+
+<!-- const data = {
+    email: "eve.holt@reqres.in",
+    password: "cityslicka",
+  };
+  
+  const fetchData = async () => {
+    const response = await fetch(URL, {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-type": "application/json",
+      },
+    });
+    const result = await response.json();
+  
+    console.log(result);
+  };
+  
+  fetchData(); -->
