@@ -106,8 +106,12 @@ input::placeholder {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.remember * {
+  cursor: pointer;
+}
 
 button {
+  cursor: pointer;
   background-color: var(--primery-color);
   color: #fff;
   font-weight: 900;
