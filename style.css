@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap");
+
 :root {
   --text-color: #2d2d2d;
   --text-color-2: #b2b2b2;
@@ -25,10 +27,6 @@ body {
   color: var(--text-color);
   box-sizing: border-box;
 }
-h2 {
-  margin-bottom: 24px;
-  text-align: center;
-}
 
 form {
   width: 300px;
@@ -44,7 +42,7 @@ button {
   width: 100%;
 }
 #email {
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
 #password {
   margin-bottom: 10px;
@@ -114,4 +112,57 @@ button {
   color: #fff;
   font-weight: 900;
   margin-top: 24px;
+}
+
+/* message */
+#alertMessage {
+  width: 90%;
+  text-align: center;
+  display: none;
+  padding: 1em;
+  border-radius: 10px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  line-height: 25px;
+  transform: translateX(-50%);
+}
+
+/* loading */
+#loading {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  transition: 2s ease;
+  cursor: progress;
+}
+.wrapper:hover {
+  transform: scale(1.2);
+}
+.text {
+  color: var(--primery-color);
+  font-weight: 800;
+}
+.dot {
+  background: var(--primery-color);
+  height: 0.65em;
+  width: 0.65em;
+  border-radius: 50%;
+  animation: move 0.6s ease infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(50%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
 }
