@@ -13,7 +13,7 @@ const alertMessage = (isSuccess, message) => {
   alertNode.style.display = "block";
   setTimeout(() => {
     alertNode.style.display = "none";
-  }, 1000);
+  }, 1500);
 };
 
 // submit
