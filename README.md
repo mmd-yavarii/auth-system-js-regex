@@ -13,8 +13,12 @@ This is a simple project for logging in users. It takes email and password, chec
 
 - **HTML**, **CSS**, **JavaScript** **Regex**
 
-## How to use 
+## Languages Used
+<!--with chatgpt-->
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E)
+![CSS](https://img.shields.io/badge/CSS-1572B6)
+![HTML](https://img.shields.io/badge/HTML-E34F26)
+![Regex](https://img.shields.io/badge/Regex-blue)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/user-authentication-project.git
+
+
