@@ -4,7 +4,10 @@
     {
       "id": "1",
       "title": "1 محصول تستی",
-      "image": "https://www.buyacar.co.uk/media/ptibw4x0/audi_a1_sportback_8.jpg?width=759&format=webp",
+      "image": [
+        "https://images.deccanherald.com/deccanherald%2Fimport%2Fsites%2Fdh%2Ffiles%2Farticleimages%2F2022%2F11%2F04%2Faiphone14plus-cov-sho-sel-1-1158826-1667563363.jpg?auto=format%2Ccompress&fmt=webp&fit=max&format=webp&q=70&w=400&dpr=2",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/A_blue_iPhone_14_Plus.jpg/250px-A_blue_iPhone_14_Plus.jpg"
+      ],
       "price": 300,
       "date": "5/24/2025, 2:47:32 PM",
       "description": "لورم ایپسوم متن ساختگی...",
@@ -15,7 +18,9 @@
     {
       "id": "2",
       "title": "2 محصول تستی",
-      "image": "https://www.buyacar.co.uk/media/ptibw4x0/audi_a1_sportback_8.jpg?width=759&format=webp",
+      "image": [
+        "https://www.buyacar.co.uk/media/ptibw4x0/audi_a1_sportback_8.jpg?width=759&format=webp"
+      ],
       "price": 300,
       "date": "6/30/2021, 12:00:00 AM",
       "description": "لورم ایپسوم متن ساختگی...",
@@ -26,7 +31,9 @@
     {
       "id": "3",
       "title": "3 محصول تستی",
-      "image": "https://www.buyacar.co.uk/media/ptibw4x0/audi_a1_sportback_8.jpg?width=759&format=webp",
+      "image": [
+        "https://www.buyacar.co.uk/media/ptibw4x0/audi_a1_sportback_8.jpg?width=759&format=webp"
+      ],
       "price": 300,
       "date": "1/1/2023, 12:00:00 AM",
       "description": "لورم ایپسوم متن ساختگی...",
@@ -37,7 +44,9 @@
     {
       "id": "4",
       "title": "4 محصول تستی",
-      "image": "https://www.buyacar.co.uk/media/ptibw4x0/audi_a1_sportback_8.jpg?width=759&format=webp",
+      "image": [
+        "https://www.buyacar.co.uk/media/ptibw4x0/audi_a1_sportback_8.jpg?width=759&format=webp"
+      ],
       "price": 300,
       "date": "5/23/2025, 10:15:42 PM",
       "description": "لورم ایپسوم متن ساختگی...",
